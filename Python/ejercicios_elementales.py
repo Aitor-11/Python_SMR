@@ -28,8 +28,7 @@ elif operacion == "**":
     print( num ** num2)
 else:
     print("Operación no válida")
-   
-   
+
 # ejercicio 5
 #Escribe un programa que almacene una variable con el valor 1,3 e imprime por
 #pantalla el número con 20 decimales. ¿Hay un error por que?
@@ -48,7 +47,7 @@ print(f"{variable:.20f}")
 
 
 '''ejercicio 17
- Escribe una variable con el valor “En un lugar de la mancha de cuyo nombre no
+Escribe una variable con el valor “En un lugar de la mancha de cuyo nombre no
 quiero acordarme …” y realiza las siguientes operaciones'''
 nuevotexto = "dijo don quijote"
 frase = "En un lugar de la mancha de cuyo nombre no quiero acordarme ..."
