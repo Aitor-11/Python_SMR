@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+    </style>
+
+</head>
+<body>
+
+<form>
+  <fieldset>
+    <legend>ESTRUCTURA DE TEXTO:</legend>
+    <label for="Alumno">Nombre alumno:</label>
+    <input type="text" id="Alumno" name="Nombre" value=""><br>
+    <label for="Aumno">Nombre:</label><br>
+    <input style="background-color: aqua" id="Nombre" type="text"><br><br>
+    <label for="Alumno">Description:</label>
+    <input type="text" style="font-size:35px" id="Nombre">
+    <br>
+    <br>
+   <label for="Alumno"> password:</label>
+   <input type="password" id="password" name="Password">
+   <br>
+   <br>
+   <label for="email">Email:</label>
+   <input for="email" id="email" type="text">
+   <br>
+   <br>
+   <label for="submit">Archivos</label>
+   <input type="file">
+  </fieldset>
+    <br>
+    <fieldset>
+        <legend>ESTRUCTURAS SELECCION</legend>
+        <input type="checkbox" id="Profesion" name="profesion" value="Desarrollador">
+        <label for="Profesion"> Desarrollador </label>
+        <input type="checkbox" id="Profesion" name="profesion" value="Diseñador">
+        <label for="Profesion"> Diseñador </label><br>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label>
+        <input type="radio" id="js" name="fav_language" value="JS">
+        <label for="js">JS</label>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>ESTRUCTURA DE LISTAS</legend>
+        <select name="elementos" id="elementos" size="3">
+        <label for="elementos">Elige un elemento:</label>
+        <option value="Valor1">Valor 1</option>
+        <option value="Valor2">Valor 2</option>
+        <option value="Valor3">Valor 3</option>
+        </select>
+        <br>
+        <select name="elementos2" id="elementos2" size="7" >
+        <label for="elementos">Elige un elemento:</label>
+        <optgroup label="Categoria1"></optgroup>
+        <option value="Elemnto1">Elemento 1</option>
+        <option value="Elemnto2">Elemento 2</option>
+        <optgroup label="categoria2"></optgroup>
+        <option value="Elemnto3">Elemento 3</option>
+        </select>
+        <br>
+        <range for="volumen">Rango</range>
+        <input type="range" id="volumen" name="volumen" min="0" max="10">
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>otros</legend>
+        <label for="color">Color:</label>
+        <input type="color" id="color" name="color" value="#ff0000">
+        <br>
+        <label for="fecha">date:</label>
+        <input type="date" id="fecha" name="fecha">
+        <label for="hora">date:</label>
+        <input type="time" id="hora" name="hora">
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>OTROS</legend>
+        <input type="submit" value="Boton">
+        <input type="submit" value="Boton desactivado" disabled>
+        <input type="button" value="Enviar">
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>OPCIONES PROPIAS DE HTML 5</legend>
+        <label for="cantidad">Numero:</label>
+        <input type="number" id="cantidad" name="cantidad" min="1" max="100"><br>
+        <label for="range">Rango</label>
+        <input type="range" id="range" name="range" min="0" max="10">
+        <label for="range">10</label><br>
+        <label for="range">Rango</label>
+        <input type="range" id="range" name="range" min="0" max="10">
+        <label for="range">10</label><br>
+        <input type="text" name="texto"><br>
+        <input type="range" name="mi rango "min="0" max="5" class="slider" list="marcas"><br>
+    </fieldset>
+    </form>
+
+
+
+</body>
+</html>
+
+
+
+

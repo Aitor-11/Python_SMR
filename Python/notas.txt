@@ -1,0 +1,5 @@
+Ana,7.5
+Luis,4.2
+María,8.9
+Pedro,5.0
+Lucía,9.1
